@@ -52,7 +52,9 @@
         <div class="content-center">
           <!-- <div class="cc-profile-image"><a href="#"><img src="images/foto_perfil.jpg" alt="Image"/></a></div> -->
           <div class="h2 title">Sebastian Beltran Gonzalez</div>
-          <p class="category text-white">Desarrollador Movil, Desarrollador Web, Diseñador</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white">Desarrollador Movil, Desarrollador Web, Diseñador</p>
+          <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
+          <a class="btn btn-primary" href="images/laravel_project.jpg" download="Imagen">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -97,11 +99,15 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Telefono:</strong></div>
-              <div class="col-sm-8">+57 312 554 4106</div>
+              <div class="col-sm-8">+57 312-554-4106</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Idiomas:</strong></div>
               <div class="col-sm-8">Español, Ingles</div>
+            </div> 
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Ubicación:</strong></div>
+              <div class="col-sm-8">Bogotá, Colombia</div>
             </div>
           </div>
         </div>
@@ -266,36 +272,37 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#apinodeModal">
+                  <figure class="cc-effect"><img src="images/node-js-javascript.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Recent Project11</div>
-                      <p>Web Development</p>
+                      <div class="h4">API en Node js</div>
+                      <p>API para gestión de empleados</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#apiLaravelModal">
+                  <figure class="cc-effect"><img src="images/laravel_project.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">API-Laravel UCCAPP</div>
+                      <p>API para el ingreso y registro de usuarios para la Universidad Cooperativa de Colombia</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/sticky-notes.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
+                      <div class="h4">Proyecto de notas</div>
+                      <p>Proyecto WEB, haciendo un CRUD de notas</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+              <!-- <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                   <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Web Advertising Project</div>
                       <p>Web Development</p>
                     </figcaption>
-                  </figure></a></div>
+                  </figure></a>
+              </div> -->
             </div>
           </div>
         </div>
@@ -308,7 +315,7 @@
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
                   <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Triangle Pattern</div>
+                      <div class="h4">Registro UCCAPP</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
@@ -318,7 +325,8 @@
                       <div class="h4">Abstract Umbrella</div>
                       <p>Graphic Design</p>
                     </figcaption>
-                  </figure></a></div>
+                  </figure></a>
+                </div>
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
@@ -607,6 +615,68 @@
   </div>
 </div></div>
     </div>
+    <!-- Modales -->
+    <!-- Modal API Node -->
+    <div class="modal fade" id="apinodeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><b> API Node js</b></h5> <img src="https://img.icons8.com/color/80/000000/nodejs.png"/>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+          </div>
+          <div class="modal-body">
+            Esta API fue desarrolla en node js, y funciona como un CRUD para la gestión de empleados. Las tecnologias que se usaron fueron:
+            <ul>
+              <li> Node js.
+              <li> PostgreSQL.
+              <li> Express.
+            </ul>
+            Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            <br>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- Modal API Laravel -->
+    <div class="modal fade" id="apiLaravelModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">API Laravel</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Esta API fue desarrolla en node js, y funciona como un CRUD para la gestión de empleados. Las tecnologias que se usaron fueron:
+            <ul>
+              <li> Node js.
+              <li> PostgreSQL.
+              <li> Express.
+            </ul>
+            Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            <br>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
       <div class="h4 title text-center">Anthony Barnett</div>
@@ -614,11 +684,14 @@
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
     </footer>
+    
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
     <script src="js/core/popper.min.js?ver=1.1.0"></script>
     <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
