@@ -288,7 +288,7 @@
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#aplicacionNotaModal">
                   <figure class="cc-effect"><img src="images/sticky-notes.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Proyecto de notas</div>
@@ -312,11 +312,11 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#uccappModal">
+                  <figure class="cc-effect"><img src="images/logo_ucc.PNG" alt="Image"/>
                     <figcaption>
                       <div class="h4">Registro UCCAPP</div>
-                      <p>Graphic Design</p>
+                      <p>Aplicación movil para el ingreso y control de personal en la UCC</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
@@ -635,9 +635,10 @@
             </ul>
             Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
             <br>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+            <a target="_blank" href="https://github.com/Sebastian-Beltran/API-Node" class="btn btn-primary">Ir a GitHub!<img src="https://img.icons8.com/fluent/40/000000/github.png"/></a>
+            <!-- <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
               <i class="fa fa-github"></i>
-            </a>
+            </a> -->
           </div>
           <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -652,23 +653,25 @@
       <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">API Laravel</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <h5 class="modal-title" id="exampleModalLabel"><b>API Laravel</b></h5> <img src="https://img.icons8.com/fluent/65/000000/laravel.png"/>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
-            </button>
+            </button> -->
           </div>
           <div class="modal-body">
-            Esta API fue desarrolla en node js, y funciona como un CRUD para la gestión de empleados. Las tecnologias que se usaron fueron:
+            API desarrollada en Laravel para hacer permitir el ingreso del personal a la Universidad Cooperativa de Colombia, con el fin de llevar un registro de que usuarios presentan sintomas de COVID-19, las tecnologias que se utilizaron para desarrollar esta API fueron:
             <ul>
-              <li> Node js.
-              <li> PostgreSQL.
-              <li> Express.
+              <li> Laravel.
+              <li> MySQL.
+              <li> JWT.
             </ul>
-            Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            Si quieres acceder al sitio Web para hechar un vistaso!
+            <a target="_blank" href="http://www.gtucc.com/" class="btn btn-primary">Ir a sitio Web UCCAPP<img src="https://img.icons8.com/plasticine/40/000000/web.png"/></a>
+            <!-- Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
             <br>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
               <i class="fa fa-github"></i>
-            </a>
+            </a> -->
           </div>
           <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -677,6 +680,102 @@
         </div>
       </div>
     </div>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <!-- Modal Aplicacion web de notas -->
+    <div class="modal fade" id="aplicacionNotaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><b>Aplicacion WEB de notas</b></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            AUN EN DESARROLLO
+            <!-- Tecnologias:
+            <ul>
+              <li> React.js.
+              <li> Firebase.
+              <li> Node.js.
+              <li> Express.
+            </ul>
+            Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            <br>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+              <i class="fa fa-github"></i>
+            </a> -->
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <!-- Modal App Flutter: UCCAPP -->
+    <div class="modal fade" id="uccappModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><b>Aplicación movil: Registro UCCAPP</b></h5> <img src="https://img.icons8.com/color/50/000000/flutter.png"/>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+          </div>
+          <div class="modal-body">
+            Aplicación movil desarrollada en Flutter para el ingreso a la Universidad por la pandemia del COVID-19, esta aplicación tiene como objetivo que el ususario realize un autodiagnostico donde dependiendo el resultado se le permite si o no el ingreso a las instalaciones de la Unviersidad, tambien arroja datos graficos para los administradores donde pueden llevar un seguimiento de los usuarios que presentan sintomas.
+            <br>
+            Si quieres acceder al sitio Web y a la PlayStore para hechar un vistaso!
+            <br>
+            <a target="_blank" href="http://www.gtucc.com/" class="btn btn-primary">Ir a sitio Web UCCAPP<img src="https://img.icons8.com/plasticine/40/000000/web.png"/></a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.uccapp.dev" class="btn btn-primary">Ir a la PlayStore <img src="https://img.icons8.com/plasticine/40/000000/playstore.png"/></a>
+            <!-- Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            <br>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+              <i class="fa fa-github"></i>
+            </a> -->
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <!-- Modal App Flutter: ViveTuBogota -->
+    <div class="modal fade" id="turismoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><b>ViveTuBogota</b></h5> <img src="https://img.icons8.com/color/50/000000/flutter.png"/>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+          </div>
+          <div class="modal-body">
+            Aplicación movil desarrollada en Flutter para el ingreso a la Universidad por la pandemia del COVID-19, esta aplicación tiene como objetivo que el ususario realize un autodiagnostico donde dependiendo el resultado se le permite si o no el ingreso a las instalaciones de la Unviersidad, tambien arroja datos graficos para los administradores donde pueden llevar un seguimiento de los usuarios que presentan sintomas.
+            <br>
+            Si quieres acceder al sitio Web y a la PlayStore para hechar un vistaso!
+            <br>
+            <a target="_blank" href="http://www.gtucc.com/" class="btn btn-primary">Ir a sitio Web UCCAPP<img src="https://img.icons8.com/plasticine/40/000000/web.png"/></a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.uccapp.dev" class="btn btn-primary">Ir a la PlayStore <img src="https://img.icons8.com/plasticine/40/000000/playstore.png"/></a>
+            <!-- Si quieres ver el codigo fuente de la API, puedes visitar el repositorio en GitHub
+            <br>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Sebastian-Beltran/API-Node" rel="tooltip" title="Revisa mi perfil de GitHub!" target="_blank">
+              <i class="fa fa-github"></i>
+            </a> -->
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <footer class="footer">
       <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
       <div class="h4 title text-center">Anthony Barnett</div>
