@@ -1,4 +1,4 @@
-#Visita este proyecto en GitHubPages en https://sebastian-beltran.github.io/CVV/
+#Visita este proyecto en GitHubPages en https://sebastian-beltran.github.io/CV/
 Directory Structure
 -------------------
 css\              - Stylesheets CSS files for the template.
