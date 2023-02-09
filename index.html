@@ -113,7 +113,21 @@
             <div class="h4 mt-0 title">Información basica</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Edad:</strong></div>
-              <div class="col-sm-8">22</div>
+              <div class="col-sm-8">
+                <script>
+                 let hoy = new Date()
+                  let fechaNacimiento = new Date('10/06/1998')
+                  let edad = hoy.getFullYear() - fechaNacimiento.getFullYear()
+                  let diferenciaMeses = hoy.getMonth() - fechaNacimiento.getMonth()
+                  if (
+                    diferenciaMeses < 0 ||
+                    (diferenciaMeses === 0 && hoy.getDate() < fechaNacimiento.getDate())
+                  ) {
+                    edad--
+                  }
+                  document.write(edad)
+              </script>
+            </div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
